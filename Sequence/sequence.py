@@ -51,3 +51,4 @@ class Sequence(object):
 
             self.exceedance_records[(thresh_ind, block_size)] = (num_blocks, num_exceedance_blocks,
                                                                  num_exceedance, theta_naive_est)
+
