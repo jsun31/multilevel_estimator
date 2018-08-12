@@ -1,7 +1,9 @@
 from typing import  (
     List,
 )
-from Sequence import Sequence
+from Sequence import (
+    Sequence,
+)
 import numpy as np
 import pandas as pd
 
@@ -25,4 +27,10 @@ class MultilevelEstimator(object):
             blocks_array = np.empty(num_levels * len(block_size_list), dtype=int)
             exceedance_array = np.empty(num_levels * len(block_size_list), dtype=int)
 
-        pass
+        return self.sequence.length
+
+
+if __name__ == '__main__':
+    a = Sequence(np.array([1]))
+    b = MultilevelEstimator(a)
+    print(b.bias_linear_regression(10, 10, 10, [10]))
