@@ -21,7 +21,7 @@ class Sequence(object):
         # to be updated by record_exceedance function
         self.exceedance_records = {}
 
-        # to be updated by Multilevel Estimator
+        # to be updated by MultilevelEstimator
         self.regression_results = {}
         self.alpha_hat = {}
 

@@ -21,4 +21,8 @@ class MultilevelEstimator(object):
             step_thresh,       # type: int
             block_size_list,   # type: List[int]
     ):
+        if (num_levels, start_thresh, step_thresh, tuple(block_size_list)) not in self.sequence.regression_results:
+            blocks_array = np.empty(num_levels * len(block_size_list), dtype=int)
+            exceedance_array = np.empty(num_levels * len(block_size_list), dtype=int)
+
         pass
