@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a07ed49-3435-48a8-9a42-8fe4a9e34d96" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estimators/multilevel_blocks_estimator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sequence/sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sequence/sequence.py" afterDir="false" />
     </list>
@@ -20,11 +20,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$USER_HOME$/Dropbox/Extremal Index Estimator/cl_sequence.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="221">
-                    <caret line="40" column="55" lean-forward="true" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
-                    <folding>
-                      <element signature="e#0#18#0" expanded="true" />
-                    </folding>
+                  <state relative-caret-position="510">
+                    <caret line="66" column="55" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
                   </state>
                 </provider>
               </entry>
@@ -38,44 +35,59 @@
     <session id="-1888704634">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.2" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="5" />
+          <entry key="py" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="5" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1486" />
+          <entry key="dummy" value="12" />
+          <entry key="py" value="2088" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1486" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Python" value="2088" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sequence/sequence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="408">
+              <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <marker date="1534028663729" expanded="true" signature="96:101" ph="..." />
+                <marker date="1534098937700" expanded="true" signature="44:49" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Estimators/multilevel_blocks_estimator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+                <marker date="1534098894659" expanded="true" signature="139:144" ph="..." />
+                <marker date="1534098894659" expanded="true" signature="271:275" ph="..." />
               </folding>
             </state>
           </provider>
@@ -107,12 +119,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Estimators/multilevel_estimator.py" />
+        <option value="$PROJECT_DIR$/Estimators/multilevel_blocks_estimator.py" />
         <option value="$PROJECT_DIR$/Sequence/sequence.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -179,6 +194,11 @@
             <path>
               <item name="multilevel_estimator" type="b2602c69:ProjectViewProjectNode" />
               <item name="multilevel_estimator" type="462c0819:PsiDirectoryNode" />
+              <item name="Estimators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multilevel_estimator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multilevel_estimator" type="462c0819:PsiDirectoryNode" />
               <item name="Sequence" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -189,7 +209,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="last_opened_file_path" value="C:/Program Files/R/R-3.5.1/bin/x64/R.exe" />
+    <property name="settings.editor.selected.configurable" value="RSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -217,10 +238,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22757111" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13166311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -232,7 +253,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32968238" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -254,21 +275,29 @@
     </entry>
     <entry file="file://$USER_HOME$/Dropbox/Extremal Index Estimator/cl_sequence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="40" column="55" lean-forward="true" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="510">
+          <caret line="66" column="55" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sequence/sequence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="408">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1534028663729" expanded="true" signature="96:101" ph="..." />
+            <marker date="1534098937700" expanded="true" signature="44:49" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Estimators/multilevel_blocks_estimator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <marker date="1534098894659" expanded="true" signature="139:144" ph="..." />
+            <marker date="1534098894659" expanded="true" signature="271:275" ph="..." />
           </folding>
         </state>
       </provider>

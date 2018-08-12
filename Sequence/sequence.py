@@ -1,6 +1,4 @@
 import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
 
 
 class Sequence(object):
@@ -19,7 +17,11 @@ class Sequence(object):
 
         self.length = len(sequence)
         self.sorted_sequence = np.sort(sequence)[::-1]
+
+        # to be updated by record_exceedance function
         self.exceedance_records = {}
+
+        # to be updated by Multilevel Estimator
         self.regression_results = {}
         self.alpha_hat = {}
 
