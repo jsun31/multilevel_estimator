@@ -6,9 +6,9 @@ class Sequence(object):
     along with methods that deal with estimation"""
     def __init__(
             self,
-            sequence,      # type: np.array
-            theta=None,    # type: float
-            alpha=None,    # type: float
+            sequence,        # type: np.array
+            theta=None,      # type: float
+            alpha=None,      # type: float
     ):
         # (...) -> None
         self.sequence = sequence
